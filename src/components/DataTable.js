@@ -266,10 +266,8 @@ const DataTable = () => {
         <Pagination
           count={totalPages}
           page={page + 1}
-          onChange={(e) => {
-            const newSize = Number(e.target.value);
-            dispatch({ type: "SET_PAGE_SIZE", payload: newSize });
-            dispatch({ type: "SET_PAGE", payload: 0 }); // reset to first page
+          onChange={(event, newPage) => {
+            dispatch({ type: "SET_PAGE", payload: newPage - 1 });
           }}
           color="primary"
         />
@@ -279,3 +277,4 @@ const DataTable = () => {
 };
 
 export default DataTable;
+
