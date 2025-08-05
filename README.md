@@ -1,2 +1,0 @@
-# CloudEagleTestTaskOne
-Created with CodeSandbox
