@@ -1,0 +1,24 @@
+.tableRow {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 0 10px;
+}
+
+.ReactVirtualized__Table__row {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.ReactVirtualized__Table__headerRow {
+  font-weight: bold;
+  border-bottom: 2px solid #999;
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.MuiTextField-root {
+  margin: 0 !important;
+}
